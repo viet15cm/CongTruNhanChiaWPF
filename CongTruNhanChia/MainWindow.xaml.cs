@@ -24,7 +24,7 @@ namespace CongTruNhanChia
         {
             InitializeComponent();
         }
-
+        //chỉnh sữa lại 
         public int Tong(int n)
         {
             int tong = 0;
@@ -85,6 +85,16 @@ namespace CongTruNhanChia
                     break;
 
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            disPlay(chon());
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

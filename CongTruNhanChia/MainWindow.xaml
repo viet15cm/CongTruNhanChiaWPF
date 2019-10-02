@@ -9,14 +9,16 @@
     <Grid>
         <TextBlock Foreground="Blue" FontSize="20px" HorizontalAlignment="Left" Margin="40,44,0,0" TextWrapping="Wrap" Text="Nhập n = " VerticalAlignment="Top" Height="33" Width="107"/>
         <TextBox x:Name="txbNhap" FontSize="20" Padding="70,8,0,0" Background="Azure" HorizontalAlignment="Left" Height="44" Margin="174,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178"/>
-        <RadioButton x:Name="rdTong" GroupName="PT" Content="Tổng" HorizontalAlignment="Left" Margin="174,111,0,0" VerticalAlignment="Top" Height="17" Width="57" Checked="rdTong_Checked"/>
-        <RadioButton x:Name="rdTongChan" GroupName="PT" Content="Tổng Chẳn" HorizontalAlignment="Left" Margin="267,111,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="rdTongLe" GroupName="PT" Content="Tổng Lẻ" HorizontalAlignment="Left" Margin="373,111,0,0" VerticalAlignment="Top"/>
+        
         <TextBlock Foreground="Red" FontSize="20px" HorizontalAlignment="Left" Margin="40,174,0,0" TextWrapping="Wrap" Text="Kết Quả = " VerticalAlignment="Top" Height="33" Width="107"/>
         <TextBlock FontSize="20px" Padding="70,8,0,0" x:Name="txbKetQua" Background="PowderBlue" HorizontalAlignment="Left" Margin="174,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" Height="42"/>
         <Button Background="Green" Foreground="White" Content="Tính" HorizontalAlignment="Left" Margin="153,235,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Button Content="Hủy" HorizontalAlignment="Left" Margin="286,235,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
         <TextBlock FontSize="20px" HorizontalAlignment="Left" Margin="40,103,0,0" TextWrapping="Wrap" Text="Phép Tính : " VerticalAlignment="Top" Width="107"/>
+        <RadioButton x:Name="rdTong"  Content="Tổng" HorizontalAlignment="Left" Margin="174,112,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdTongChan" Content="Tổng Chẳn" HorizontalAlignment="Left" Margin="286,114,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rdTongLe" Content="Tổng Lẻ" HorizontalAlignment="Left" Margin="390,115,0,0" VerticalAlignment="Top"/>
+
 
     </Grid>
 </Window>
